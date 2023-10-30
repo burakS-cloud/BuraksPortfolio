@@ -10,10 +10,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_s53x8mc",
-      "template_fwq8n7v",
+      "service_fm5hpet",
+      "template_tf626gb",
       form.current,
-      "cXginQ40keRVEt1YV"
+      "wTNafF3rV_8qedcdB"
     );
     e.target.reset();
   };
@@ -53,7 +53,7 @@ const Contact = () => {
               <label className="contact__form-tag">Name</label>
               <input
                 type="text"
-                name="name"
+                name="user_name"
                 className="contact__form-input"
                 placeholder="Type your name"
               />
@@ -63,7 +63,7 @@ const Contact = () => {
               <label className="contact__form-tag">Email</label>
               <input
                 type="email"
-                name="email"
+                name="user_email"
                 className="contact__form-input"
                 placeholder="Type your email"
               />
@@ -72,7 +72,7 @@ const Contact = () => {
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Message</label>
               <textarea
-                name="project"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
