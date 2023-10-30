@@ -12,6 +12,7 @@ const ProjectItems = ({ item }) => {
       <a href={`${item.view}`} className="project__button" target="_blank">
         Live <HiOutlineArrowSmRight className="project__button-icon" />
       </a>
+      <span style={{ color: "#34ebe8" }}>{item.status}</span>
     </div>
   );
 };

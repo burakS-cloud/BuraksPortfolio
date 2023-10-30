@@ -5,33 +5,42 @@
 import travelerPers from "../../assets/traveler_perspective_adDetail.png";
 import gradOne from "../../assets/grad1ss.png";
 import ecommerceReact from "../../assets/react-ecommerce-app-ss.png";
+import graphQLBlog from "../../assets/graphQLBlog2.png";
 
 export const projectsData = [
   {
     id: 1,
+    image: graphQLBlog,
+    title: "GraphQL Blog App",
+    view: "https://github.com/burakS-cloud/BuraksPortfolio",
+    source: "https://github.com/burakS-cloud/BuraksPortfolio",
+    status: "Currently Developing",
+  },
+  {
+    id: 2,
     image: travelerPers,
     title: "Local Guide Travel App",
     view: "https://www.youtube.com/watch?v=MetOS45MqB4",
     source: "https://github.com/burakS-cloud/Local-Guide",
-    // category: "A",
+    status: "",
   },
   {
-    id: 2,
+    id: 3,
     image: ecommerceReact,
     title: "Basic Ecommerce App w/ React.js",
     view: "https://www.youtube.com/watch?v=QJRd68sHoBE",
     source:
       "https://github.com/burakS-cloud/techcareer.net-React-Bootcamp-Ecommerce/tree/master/ecommerce",
-    // category: "B",
+    status: "",
   },
   {
-    id: 3,
+    id: 4,
     image: gradOne,
     title: "HealthCare Hospital App",
     view: "https://www.youtube.com/watch?v=oaeKCy9QhKc",
     source:
       "https://github.com/burakS-cloud/HealthCare-Web-App-Refactored/tree/master",
-    // category: "C",
+    status: "",
   },
 ];
 const ProjectCardData = [
