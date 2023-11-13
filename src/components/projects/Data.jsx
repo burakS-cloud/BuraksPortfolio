@@ -12,8 +12,9 @@ export const projectsData = [
     id: 1,
     image: graphQLBlog,
     title: "GraphQL Blog App",
-    view: "https://github.com/burakS-cloud/BuraksPortfolio",
-    source: "https://github.com/burakS-cloud/BuraksPortfolio",
+    view: "https://github.com/burakS-cloud/BlogApp--React-Node-GraphQL-Postgre-Prisma",
+    source:
+      "https://github.com/burakS-cloud/BlogApp--React-Node-GraphQL-Postgre-Prisma",
     status: "Currently Developing",
   },
   {
