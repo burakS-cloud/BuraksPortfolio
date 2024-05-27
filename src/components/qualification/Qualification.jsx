@@ -110,10 +110,24 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Full Stack Developer</h3>
+                <span className="qualification__subtitle">Grand Parade</span>
+                <div className="qualification__calendar">
+                  <HiOutlineCalendar className="qualification__calendar-icon" />
+                  01.2024-Present
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Full Stack Developer</h3>
                 <span className="qualification__subtitle">C2B Technology</span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  01.2023-Present
+                  01.2023-01.2024
                 </div>
               </div>
               <div>
