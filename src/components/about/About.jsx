@@ -1,7 +1,7 @@
 import React from "react";
-import "./about.css";
+import CV from "../../assets/Burak_Surumcuoglu_August_CV.pdf";
 import AboutImg from "../../assets/burakLinkedinPhotoBW.jpg";
-import CV from "../../assets/BurakSurumcuogluRESUME.pdf";
+import "./about.css";
 import Info from "./Info";
 
 const About = () => {
