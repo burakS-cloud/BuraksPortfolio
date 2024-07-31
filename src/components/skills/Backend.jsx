@@ -35,6 +35,13 @@ const Backend = () => {
               {/* <span className="skills__level">Basic</span> */}
             </div>
           </div>
+          <div className="skills__data">
+            <HiCheckBadge />
+            <div>
+              <h3 className="skills__name">Supabase</h3>
+              {/* <span className="skills__level">Basic</span> */}
+            </div>
+          </div>
         </div>
         <div className="skills__group">
           <div className="skills__data">
@@ -62,6 +69,13 @@ const Backend = () => {
             <HiCheckBadge />
             <div>
               <h3 className="skills__name">JWT</h3>
+              {/* <span className="skills__level">Basic</span> */}
+            </div>
+          </div>
+          <div className="skills__data">
+            <HiCheckBadge />
+            <div>
+              <h3 className="skills__name">AWS S3</h3>
               {/* <span className="skills__level">Basic</span> */}
             </div>
           </div>
