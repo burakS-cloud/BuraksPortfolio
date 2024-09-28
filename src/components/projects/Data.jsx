@@ -6,6 +6,7 @@ import fileConverter from "../../assets/fileConverter.PNG";
 import gradOne from "../../assets/grad1ss.png";
 import graphQLBlog from "../../assets/graphQLBlog2.png";
 import ecommerceReact from "../../assets/react-ecommerce-app-ss.png";
+import tabOrganizer from "../../assets/tabIconPage.PNG";
 import travelerPers from "../../assets/traveler_perspective_adDetail.png";
 
 export const projectsData = [
@@ -19,6 +20,14 @@ export const projectsData = [
   },
   {
     id: 2,
+    image: tabOrganizer,
+    title: "Tab Organizer Chrome Extension",
+    view: "https://chromewebstore.google.com/detail/tab-organizer/hnddpeldfbebaidacgnmnijpdhoppnjj?authuser=0&hl=tr&pli=1",
+    source: "https://github.com/burakS-cloud/FileConverter",
+    status: "",
+  },
+  {
+    id: 3,
     image: graphQLBlog,
     title: "GraphQL Blog App",
     view: "https://github.com/burakS-cloud/BlogApp--React-Node-GraphQL-Postgre-Prisma",
@@ -27,7 +36,7 @@ export const projectsData = [
     status: "Currently Developing",
   },
   {
-    id: 3,
+    id: 4,
     image: travelerPers,
     title: "Local Guide Travel App",
     view: "https://www.youtube.com/watch?v=MetOS45MqB4",
@@ -35,7 +44,7 @@ export const projectsData = [
     status: "",
   },
   {
-    id: 4,
+    id: 5,
     image: ecommerceReact,
     title: "Basic Ecommerce App w/ React.js",
     view: "https://www.youtube.com/watch?v=QJRd68sHoBE",
@@ -44,7 +53,7 @@ export const projectsData = [
     status: "",
   },
   {
-    id: 5,
+    id: 6,
     image: gradOne,
     title: "HealthCare Hospital App",
     view: "https://www.youtube.com/watch?v=oaeKCy9QhKc",
